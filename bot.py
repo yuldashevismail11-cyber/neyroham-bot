@@ -18,7 +18,7 @@ memory = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "👋 Я НейроХам. "
+        "👋 Я НейроХам.Что надо "
     )
 def search_web(query):
     headers = {
